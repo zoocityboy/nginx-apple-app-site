@@ -1,0 +1,22 @@
+{
+    "applinks": {
+        "details": [
+            {
+                "appIDs": [
+                    "rs.yettelbank.mobile.dev",
+                    "rs.yettelbank.mobile.asm",
+                    "rs.yettelbank.mobile.stg",
+                    "rs.yettelbank.mobile.iap",
+                    "rs.yettelbank.mobile.pp",
+                    "rs.yettelbank.mobile"
+                ],
+                "components": [
+                    {
+                        "/": "/mobile/*",
+                        "comment": "Matches any URL whose path starts with /mobile/"
+                    }
+                ]
+            }
+        ]
+    }
+}
